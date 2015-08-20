@@ -1,0 +1,145 @@
+
+.bg{
+	background-color: #012F34;
+}
+.myMenu li {
+	list-style:none;
+	float:left;
+	font:12px Arial, Helvetica, sans-serif #E8E8E8;
+}
+
+.myMenu li a:link, .myMenu li a:visited {
+	display:block;
+	text-decoration:none;
+	background-color:#0E484E;
+	padding: 0.5em 2em;
+	margin:0;
+	border-right: 1px solid #012F34;
+	color:#E8E8E8;
+}
+
+.myMenu li a:hover {
+	background-color:#417C81;	
+}
+
+/*style the sub menu*/
+.myMenu li ul {
+	position:absolute;
+	visibility:hidden;
+	border-top:1px solid #E8E8E8;
+	margin:0;
+	padding:0;
+	z-index: 999;
+}
+
+.myMenu li ul li {
+	display:inline;
+	float:none;
+}
+
+.myMenu li ul li a:link, .myMenu li ul li a:visited {
+	background-color:#0E484E;
+	width:auto;
+}
+
+.myMenu li ul li a:hover {
+	background-color:#417C81;	
+}
+.nav{
+	text-align: right;
+	padding-top: 50px;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.img-responsive-custom{
+	display: inline-block;
+	border: 20px groove #417C81;
+	max-width: 800px;
+	width: 100%;
+}
+.wedding{
+	padding-top: 30px;
+}
+.slider{
+	padding-top: 30px;
+}
+.sale{
+	font-weight: bold;
+	font-size: 35px;
+	color: #fff;
+}
+
+.addBtn{
+	padding-top: 25px;
+}
+.blockImg{
+	padding-top: 30px;
+}
+.rowImg{
+	width: 100%;
+	max-width: 300px;
+	border: 8px groove #417C81;
+}
+.price{
+	border: 1px solid #E8E8E8;
+	color: #DE432D;
+	background-color: #E8E8E8;
+	width: 284px;
+	margin-top: 5px;
+	padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.textWedding{
+	color: #E8E8E8;
+	padding-top: 7px;
+	display: none;
+}
+.bigImg{
+	width: 100%;
+	max-width: 1200px;
+}
+/* site elements none*/
+.out{
+	opacity: 0;
+}
+.titleText{
+	color: #656565;
+	font-size: 21px;
+}
+.iconText{
+	margin-top: 30px;
+	margin-bottom: 178px;
+
+}
+.mainText{
+	color: #E8E8E8;
+}
+.leftCol{
+	margin-top: 30px;
+}
+.contact{
+	padding-top: 8px;
+	color:#E8E8E8; 
+}
+.contactBg{
+ background-color: #18191A;
+ padding-top: 40px;
+}
+.leftCol h2{
+	color:white;
+	font-weight: bold;
+}
+em{
+	line-height: 25px;
+}
+.address{
+	padding-top: 35px;
+}
+.resp{
+	max-width: 1200px;
+	width: 100%;
+}
